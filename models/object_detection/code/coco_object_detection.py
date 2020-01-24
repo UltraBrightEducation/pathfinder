@@ -11,7 +11,7 @@ import cv2
 from PIL import Image
 
 def main():
-    os.chdir('/home/pi/DeepPiCar/models/object_detection')
+    os.chdir('/home/pi/pathfinder/models/object_detection')
     
     parser = argparse.ArgumentParser()
     parser.add_argument(

@@ -12,7 +12,7 @@ class EndToEndLaneFollower(object):
 
     def __init__(self,
                  car=None,
-                 model_path='/home/pi/DeepPiCar/models/lane_navigation/data/model_result/lane_navigation.h5'):
+                 model_path='/home/pi/pathfinder/models/lane_navigation/data/model_result/lane_navigation.h5'):
         logging.info('Creating a EndToEndLaneFollower...')
 
         self.car = car
