@@ -50,7 +50,7 @@ class DeepPiCar(object):
         datestr = datetime.datetime.now().strftime("%y%m%d_%H%M%S")
         self.video_lane = self.create_video_recorder('../data/car_video_lane%s.avi' % datestr)
         self.video_objs = self.create_video_recorder('../data//car_video_objs%s.avi' % datestr)
-
+        self.video_orig = self.create_video_recorder('../data/car_video%s.avi'%datestr)
         logging.info('Created a DeepPiCar')
 
     def create_video_recorder(self, path):
