@@ -315,7 +315,7 @@ We will continue to follow [Edje Electronics’s video at 14:39](https://www.you
 1. Download his code, [`Object_detection_picamera.py`](https://github.com/EdjeElectronics/TensorFlow-Object-Detection-on-the-Raspberry-Pi/blob/master/Object_detection_picamera.py). 
 
 ```bash
-# Download the object detection code from Edje's github page
+lane_followers
 pi@raspberrypi:~/tensorflow1/models/research/object_detection $ wget https://raw.githubusercontent.com/EdjeElectronics/TensorFlow-Object-Detection-on-the-Raspberry-Pi/master/Object_detection_picamera.py
 
 # install other dependent packages needed by TF object detection API
